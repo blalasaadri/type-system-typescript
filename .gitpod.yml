@@ -1,5 +1,5 @@
 tasks:
-- before: source .aliases
+- before: source .profile
 - init: npm install
 - command: npm run watch
 - command: npm run prettier-watch
