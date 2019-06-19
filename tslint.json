@@ -7,6 +7,7 @@
     "jsRules": {},
     "rules": {
       "prettier": true,
+      "semicolon": false,
       "no-console": false
     },
     "rulesDirectory": ["tslint-plugin-prettier"]
