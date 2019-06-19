@@ -1,4 +1,6 @@
 tasks:
+- before: source .aliases
 - init: npm install
 - command: npm run watch
 - command: npm run prettier-watch
+- command: ts-node
