@@ -5,13 +5,13 @@ module.exports = {
     }
   },
   moduleFileExtensions: ["js", "ts"],
-  transform: {
-    "^.+\\.(ts|tsx)$": "ts-jest"
-  },
+  preset: "ts-jest",
+  resetMocks: true,
+  resetModules: true,
+  testEnvironment: "node",
   testMatch: ["**/*.test.(ts|js)"],
   testPathIgnorePatterns: ["/dist/"],
-  testEnvironment: "node",
-  preset: "ts-jest",
-  resetModules: true,
-  resetMocks: true
+  transform: {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  }
 }

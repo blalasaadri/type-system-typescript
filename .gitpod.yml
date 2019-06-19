@@ -1,5 +1,5 @@
 tasks:
-- before: source .profile
+- before: cp .gitpod.aliases ~/.aliases && cat .gitpod.bashrc >> ~/.bashrc
 - init: npm install
 - command: npm run watch
 - command: npm run prettier-watch
