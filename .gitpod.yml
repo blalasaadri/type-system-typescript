@@ -1,3 +1,5 @@
+image:
+  file: .gitpod.dockerfile
 tasks:
 - before: cp .gitpod.aliases ~/.aliases && cat .gitpod.bashrc >> ~/.bashrc
 - init: npm install
