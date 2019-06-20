@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
-COPY .gitpod.bashrc
+COPY .gitpod.bashrc .
 RUN cat .gitpod.bashrc >> ~/.bashrc
