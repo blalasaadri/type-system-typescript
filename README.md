@@ -11,6 +11,7 @@ Once the Gitpod environment has started, you will have the following custom comm
 - `run` will run the application, using `src/index.ts` as the starting point (equivalent to `npm start`)
 - `run-tests` will run the tests (equivalent to `npm test`)
 - `lint` will lint the application (eqivalent to `npm run lint`)
+- `repl` will start ts-node, which can be used as a [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) (equivalent to `ts-node`)
 
 In addition to these, everything under `node_modules/.bin` will be available on the PATH.
 
