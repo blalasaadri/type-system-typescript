@@ -12,4 +12,5 @@ Here are some resources that can help you look into the TypeScript type system.
       - [Symbols](https://www.typescriptlang.org/docs/handbook/symbols.html)
       - [Mixins](https://www.typescriptlang.org/docs/handbook/mixins.html)
 2. If you are trying to use Generics with fat arrow functions (= lambdas), check out [this StackOverflow answer](https://stackoverflow.com/a/45576880/2382246).
-3. All of the documentation about the JavaScript type system we used before.
+3. TypeScript 3.0 introduced a new type: `unknown`. You can readd [the official announcement](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type) and/or the article [TypeScript 3.0: The unknown Type](https://mariusschulz.com/blog/typescript-3-0-the-unknown-type) for more information.
+4. All of the documentation about the JavaScript type system we used before.
